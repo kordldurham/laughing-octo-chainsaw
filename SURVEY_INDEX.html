@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<link rel="stylesheet" href="SURVEY_PRETTY.css">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=DM+Mono&family=Merriweather:wght@700&family=Play&family=Pragati+Narrow&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/2a0a0f4758.js" crossorigin="anonymous"></script> 
+<html>
+    <main class="centxt">
+        <body>
+        <script></script>
+            <fieldset class="fieldset">
+                <h1>Customer Satisfaction Survey!</h1>
+                <h2>Your satisfaction with our service is VERY important to us!</h2> 
+                <h3>Any feedback you submit will be taken with the highest considerations knowing there's really not much we can do about it!</h3>
+                <h4 class="tinytxt" id="description">(The information submitted may or may not be shared across all intergalactic and transdimentional social media platforms, seriously, I don't know... someone should probably look into this. I can't cause I'm busy... but it does seems like a vague enough reason to be paranoid .)</h4>
+            </fieldset>
+            <form id="survey-form" method="post" class="" action="#redirect">
+            <fieldset class="fieldset">
+            <legend class="legtxt">Let's get started:</legend><p class="growtxt">Just some brief information so we know who you are!</p><br>
+                <label><input size="20" class="shadow" type="text" name="Fname" placeholder="First Name?" required></label>
+                <label><input size="20" class="shadow" type="text" name="Lname" placeholder="Last Name?" required></label><br><br>
+                <label><input size="30" class="shadow" type="email" name="email" id="email" class="form-control" placeholder="Email?" required></label><br><br>
+                <label><input size="30" class="shadow" type="text" name="bloodtype" placeholder="Blood type?" required></label><br><br>
+                <label><input size="30" class="shadow" type="text" name="species" placeholder="Species?" required></label><br><br>
+                <label><input size="30" class="shadow" type="text" name="GIN" placeholder="Galactic Identifing Number?" required></label><br><br>
+                <label><input size="30" class="shadow" type="text" name="SDOB" placeholder="Stardate on your day of Birth?" required></label><br><br>
+                <label><input class="shadow growtxt" type="checkbox" value="news" name="newsletter" checked required></label>Would you like to subscribe to our weekly newsletter "Living on Earth"?<br>
+                <p class="shrinktxt">(We promise not sell your personal data to 3rd party companies. You can trust us.)</p><br><br>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="legtxt">Help us make your next stay forgettable:</legend>
+                <p class="growtxt">What is:</p>
+                <p>Your favorite active volcano or tectonic fault?</p>
+                <label ><input size="60" class="shadow" type="text" name="voltec"></label>
+                <p>Your favorite aerospace law?</p>
+                <label><input size="60" class="shadow" type="text" name="aerolaw" placeholder="(Be specific.)"></label>
+                <p>Your favorite 4th dimentional shape?</p>
+                <label><input size="60" class="shadow" type="text" name="4thDimObj" placeholder="Note: there only one correct answer."></label>
+                <p>Your favorite recipe for anti-matter?</p>
+                <label><input size="60" class="shadow" type="text" name="amatter"></label>
+                <p>Your favorite inherited phenotype?</p>
+                <label><input size="60" class="shadow" type="text" name="inherphenotype"></label>
+                <p>Your favorite phenotype aquired through our service?</p>
+                <label><input size="60" class="shadow" type="text" name="giftphenotype"></label>
+                <p>Your least favorite common allergy?</p>
+                <label><input size="60" class="shadow" type="text" name="allergy" placeholder="Note: the wrong answer is pollen and dander"></label>
+                <p>Where do you like to drive by yourself on cloudless nights?</p>
+                <label><input size="60" class="shadow" type="text" name="drive" placeholder="(Coordinates only, please.)"></label><br><br>
+            </fieldset>
+            <fieldset class="fieldset">    
+                <legend class="legtxt">One tiiiny question here:</legend><br>
+                <p class="growtxt">From the following list: </p><label for="percept">What level of perception can you achieve?</label><br>
+                 <select class="shadow" id="dropdown" name="perception">
+                    <option value="Wat">What?</option>
+                    <option value="5sense">The 5 Senses</option>
+                    <option value="MindsEye">The 3rd Eye</option>
+                    <option value="Time">I can see through time and space.</option>
+                </select><br><br>
+                </fieldset>
+                <fieldset class="fieldset">
+                <legend class="legtxt">Things you may, or may not have experienced recently:</legend>
+                <p class="growtxt">Of the following, how many have you experienced in the past week?</p> </p class="shrinktxt">(please select all that apply):</p>
+                <label class="container">Prophetic Visions<input class="centxt shadow" type="checkbox" value="vis" name="Visions"><span class="checkmark"></span></label>
+                <label class="container">Paranoia<input class="centxt shadow" type="checkbox" value="para" name="paranoia"><span class="checkmark"></span></label>
+                <label class="container">A.Y.Y.L.M.A.O<input class="centxt shadow" type="checkbox" value="ay" name="ayy"><span class="checkmark"></span></label>
+                <label class="container">"Abductions"<input class="centxt shadow" type="checkbox" value="ab" name="abductions"><span class="checkmark"></span></label>
+                <label class="container">Anxiety<input class="centxt shadow" type="checkbox" value="anx" name="anxiety"><span class="checkmark"></span></label>
+                <label class="container">Pyrokinesis<input class="centxt shadow" type="checkbox" value="pyo" name="Pyrokinesis"><span class="checkmark"></span></label>
+                <label class="container">Insomnia<input class="centxt shadow" type="checkbox" value="ins" name="insomnia"><span class="checkmark"></span></label>
+                <label class="container">Sonic-Class Diarreah<input class="centxt shadow" type="checkbox" value="dia" name="diarreah"><span class="checkmark"></span></label><br><br>
+                </fieldset>
+                <fieldset class="fieldset">
+                <legend class="legtxt">And finally:</legend>
+                <p class="growtxt">How are you feeling today?</p> <p class="shrinktxt">(This is extremely important, please be as accurate as possible.)</p></br>
+                <label class="container"><i class="fab fa-jira"></i><input class="shadow" id="feeling" type="radio" value="1" name="1-5"><span class="checkmark"></span></label>
+                <label class="container"><i class="fab fa-affiliatetheme"></i><input class="shadow" id="feeling" type="radio" value="2" name="1-5"><span class="checkmark"></span></label>
+                <label class="container"><i class="fab fa-confluence"></i><input class="shadow" id="feeling" type="radio" value="3" name="1-5"><span class="checkmark"></span></label>
+                <label class="container"><i class="fas fa-wave-square"></i><input class="shadow" id="feeling" type="radio" value="4" name="1-5"><span class="checkmark"></span></label>
+                <label class="container"><i class="fas fa-signature"></i><input class="shadow" id="feeling" type="radio" value="5" name="1-5"><span class="checkmark"></span></label><br><br>
+            </fieldset>    
+            <fieldset  class="fieldset">
+                <legend class="legtxt">Comments or concerns? Enter them here!</legend>
+                <p class="growtxt">Take your time, we really care about your opinions of us. Write a heartfelt letter of adoration</p>
+                <i class="fas fa-heart heart"></i>
+                <p class="tinytxt">(We probably will not read it. Oh, and sorry about the probing. Hope you forgive us. :( )
+                <textarea class="shadow" name="message" rows="10" cols="50"></textarea><br><br>
+            </fieldset>
+                <button class="button shadow" id="submit" onclick="alert('Survey Submitted
+                Foolish Human! We LIED about NOT selling your data! Bwahahaha!!')" target="_blank" type="submit">SUBMIT<br><p class="tinytxt">to us, humans.</p></button></a>
+            </form>
+        </body>
+    </main>
+</html>
