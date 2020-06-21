@@ -1,0 +1,252 @@
+p {
+    text-shadow: 4px 4px 6px #4f4f4f, 2 2 4px #4f4f4f, 2 2 4px #4f4f4f;
+}
+
+html {
+    background: linear-gradient(270deg, #3a6e8a, #2e6583, #090010, #000000, #000000, #f97c00, #f4bd05, #f1fe07, #f4bd05, #f97c00, #000000, #000000, #090010, #2e6583, #3a6e8a);
+    color: #fbaf00;
+    font-size: 18px;
+    text-shadow: 4px 4px 6px #000000, 1 0 25px #000000, 0 1 5px #000000;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fbaf00;
+    text-shadow: 5px 5px 0px #000000, 5 5 0px #000000, 5 5 0px #000000;
+    font-family: 'Play', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 4px 4px #4f4f4f, 0 0 10px #4f4f4f, 0 0 5px #4f4f4f;
+    font-family: 'Play', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    text-shadow: 5px 4px 4px #4f4f4f, 0 0 10px #4f4f4f, 0 0 5px #4f4f4f;
+    font-family: 'Play', sans-serif;
+}
+
+.fieldset {
+    margin: 15px 0px 15px 0px;
+    margin: 0 30% 0 30%;
+    min-width: 30%;
+    border-style: solid;
+    border-color: #ffaf09;
+    border-width: 3px;
+    background-color: #336f8e;
+    font-family: 'Pragati Narrow', sans-serif;
+    align-items: center;
+    box-shadow: 2px 2px 2px #4f4f4f;
+}
+
+input {
+    font-size: 16px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+select {
+    font-size: 16px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+option {
+    font-size: 16px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+textarea {
+    font-size: 12px;
+    font-family: 'Bungee', sans-serif;
+}
+
+.centxt {
+    text-align: center;
+}
+
+.button {
+    background-color: #21475c;
+    border: solid;
+    color: #fbaf00;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    z-index: 1;
+    overflow-x: visible;
+    overflow-y: visible;
+    transform: scaleZ(2);
+    vertical-align: middle;
+    order: 1;
+    line-height: 5px;
+    margin-top: 25px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px #4f4f4f;
+    ;
+}
+
+.tinytxt {
+    font-size: 8px;
+    text-shadow: 3px 3px 2px #5f97c5, 3 3 2px #418ab4, 3 3 2px #2f4c81;
+    font-family: 'DM Mono', cursive;
+    color: #003e4a;
+}
+
+.shrinktxt {
+    font-size: 14px;
+}
+
+.growtxt {
+    font-size: 20px;
+}
+
+.legtxt {
+    font-size: 24px;
+}
+
+i {
+    font-size: 50px;
+    right: 50px;
+}
+
+.heart {
+    font-size: 28px;
+    color: pink;
+}
+
+
+/* The container */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    height: 25px;
+    width: 25px;
+    background-color: #a0c9de;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: #374b9b;
+    border-width: .5px;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #f1fe07;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #fbaf00;
+    box-shadow: 7px 10px 5px #4f4f4f94;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #ffda82;
+    border-style: dotted;
+    border-color: #ffdaa8;
+    border-width: 1px;
+    box-shadow: 5px 4px 4px #3d3d5a;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 8px 16px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #fbaf00;
+    border-width: 2.5px;
+    box-shadow: 5px 4px 4px #3d3d5a;
+    ;
+}
+
+input[type=email] {
+    width: 90%;
+    padding: 8px 16px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #fbaf00;
+    border-width: 2.5px;
+    box-shadow: 5px 4px 4px #3d3d5a;
+    ;
+}
+
+select {
+    width: 90%;
+    padding: 8px 16px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #fbaf00;
+    border-width: 2.5px;
+    box-shadow: 5px 4px 4px #3d3d5a;
+    ;
+}
+
+legend {
+    text-shadow: 5px 4px 4px #22485e, 0 0 2.25px #22485e, 0 0 4.5px #22485e;
+}
+
+;
+label {
+    text-shadow: 4px 4px 6px #4f4f4f, 2 2 4px #4f4f4f, 2 2 4px #4f4f4f;
+}
